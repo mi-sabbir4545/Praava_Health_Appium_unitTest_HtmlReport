@@ -1,0 +1,33 @@
+Command: 
+adb shell "dumpsys window windows | grep -E 'mCurrentFocus'"
+
+
+Need Install:
+-----------------
+Android studio - create emulator,
+SDK TOOLS Installed- Andriod SDK command line tools, Andriod auto desktop head unit emulator,
+Android emulator, Android SDK platform- Tools, Intel x86 Emulator, SDK platforms
+
+
+ 
+appium inspector 
+appium server gui 
+
+
+For Appium project:
+
+Install: Appium-Python-Client
+
+from appium.webdriver.common.appiumby import AppiumBy
+
+(AppiumBy.ID, "raven.reader:id/nextButton")
+
+
+XPath:
+----------
+
+//class[@content-desc='']         content-desc='Storage'
+
+//android.widget.ImageButton[@index='0']
+
+//*[contains(@text,'')]   'text value'
